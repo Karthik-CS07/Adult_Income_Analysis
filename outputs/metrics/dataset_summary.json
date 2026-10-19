@@ -1,0 +1,101 @@
+{
+    "dataset_path": "D:\\Documents\\Academics\\EDA\\Ass_2\\EDA_Adult_Income_Project\\data\\adult.csv",
+    "total_rows": 32561,
+    "total_columns": 15,
+    "columns": [
+        "age",
+        "workclass",
+        "fnlwgt",
+        "education",
+        "education.num",
+        "marital.status",
+        "occupation",
+        "relationship",
+        "race",
+        "sex",
+        "capital.gain",
+        "capital.loss",
+        "hours.per.week",
+        "native.country",
+        "income"
+    ],
+    "dtypes": {
+        "age": "int64",
+        "workclass": "str",
+        "fnlwgt": "int64",
+        "education": "str",
+        "education.num": "int64",
+        "marital.status": "str",
+        "occupation": "str",
+        "relationship": "str",
+        "race": "str",
+        "sex": "str",
+        "capital.gain": "int64",
+        "capital.loss": "int64",
+        "hours.per.week": "int64",
+        "native.country": "str",
+        "income": "str"
+    },
+    "numerical_features": [
+        "age",
+        "fnlwgt",
+        "education.num",
+        "capital.gain",
+        "capital.loss",
+        "hours.per.week"
+    ],
+    "categorical_features": [
+        "workclass",
+        "education",
+        "marital.status",
+        "occupation",
+        "relationship",
+        "race",
+        "sex",
+        "native.country"
+    ],
+    "target_feature": "income",
+    "null_counts": {
+        "age": 0,
+        "workclass": 0,
+        "fnlwgt": 0,
+        "education": 0,
+        "education.num": 0,
+        "marital.status": 0,
+        "occupation": 0,
+        "relationship": 0,
+        "race": 0,
+        "sex": 0,
+        "capital.gain": 0,
+        "capital.loss": 0,
+        "hours.per.week": 0,
+        "native.country": 0,
+        "income": 0
+    },
+    "question_mark_counts": {
+        "age": 0,
+        "workclass": 1836,
+        "fnlwgt": 0,
+        "education": 0,
+        "education.num": 0,
+        "marital.status": 0,
+        "occupation": 1843,
+        "relationship": 0,
+        "race": 0,
+        "sex": 0,
+        "capital.gain": 0,
+        "capital.loss": 0,
+        "hours.per.week": 0,
+        "native.country": 583,
+        "income": 0
+    },
+    "duplicate_rows_count": 24,
+    "target_distribution_counts": {
+        "<=50K": 24720,
+        ">50K": 7841
+    },
+    "target_distribution_percentages": {
+        "<=50K": 75.92,
+        ">50K": 24.08
+    }
+}

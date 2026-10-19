@@ -1,0 +1,9 @@
+Feature,Unique Count,Total Non-Null,Most Frequent,Top Freq Count,Top Freq Pct (%)
+workclass,8,30725,Private,22696,73.87
+education,16,32561,HS-grad,10501,32.25
+marital.status,7,32561,Married-civ-spouse,14976,45.99
+occupation,14,30718,Prof-specialty,4140,13.48
+relationship,6,32561,Husband,13193,40.52
+race,5,32561,White,27816,85.43
+sex,2,32561,Male,21790,66.92
+native.country,41,31978,United-States,29170,91.22

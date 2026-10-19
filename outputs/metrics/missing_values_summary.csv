@@ -1,0 +1,16 @@
+Feature,Missing Count,Missing Pct (%),Data Type
+age,0,0.0,int64
+workclass,1836,5.64,str
+fnlwgt,0,0.0,int64
+education,0,0.0,str
+education.num,0,0.0,int64
+marital.status,0,0.0,str
+occupation,1843,5.66,str
+relationship,0,0.0,str
+race,0,0.0,str
+sex,0,0.0,str
+capital.gain,0,0.0,int64
+capital.loss,0,0.0,int64
+hours.per.week,0,0.0,int64
+native.country,583,1.79,str
+income,0,0.0,str
